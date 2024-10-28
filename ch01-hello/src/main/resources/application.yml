@@ -1,0 +1,19 @@
+# web server
+server:
+  port: 9080
+  servlet:
+    context-path: /myapp
+
+# spring auto configure
+spring:
+  application:
+    name: user-service
+
+
+# logging
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        web: INFO
