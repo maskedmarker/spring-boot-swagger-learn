@@ -53,6 +53,9 @@ springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider#requestH
 启动入口
 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper#start
 
-
+endpoint暴露是通过在spring容器中添加controller.如下类都添加了@RestController
+OpenApiControllerWebMvc
+ApiResourceController
+Swagger2ControllerWebMvc
 
 
